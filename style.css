@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+.container {
+    margin: 0px auto;
+    max-width: 350px;
+    height: 400px;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.display {
+    width: 80%;
+    text-align: right;
+    font-size: 25px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding: 5px 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row * {
+    margin: 5px;
+}
+
+.numbtn, .clearbtn, .decimal {
+    background-color: #666666;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.numbtn:hover, .clearbtn:hover, .decimal:hover, .operatorbtn:hover, .equals:hover {
+    cursor: pointer;
+}
+
+.operatorbtn {
+    background-color: #ff8c00;
+    border-radius: 50%;;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.equals {
+    width: 80%;
+    background-color: #cccccc;
+    border-radius: 20px;
+    height: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 5px;
+}
